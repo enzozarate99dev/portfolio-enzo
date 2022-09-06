@@ -21,5 +21,8 @@ li{
 button{
   @apply shadow-xl shadow-gray-400 rounded-xl uppercase
 }
+li{
+  @apply text-white
+}
 
 }

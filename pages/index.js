@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="">
       <Head>
-        <title>Create Next App</title>
+        <title>Enzo Z</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
