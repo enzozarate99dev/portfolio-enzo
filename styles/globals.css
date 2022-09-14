@@ -24,5 +24,8 @@ button{
 li{
   @apply text-white
 }
+text{
+  @apply text-white
+}
 
 }
