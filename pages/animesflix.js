@@ -26,13 +26,12 @@ const AnimesFlix = () => {
                     <p>Proyecto</p>
                     <h2>Vista General</h2>
                     <p>
-                        I built this application in React JS and is hosted on GitHub pages.
-                        This app features user authentication with firebase as well as the
-                        firestore cloud storage database. This application is pulling movie
-                        data from an the IMDB movie API and displaying different categories.
-                        It features horizontal sliding and a featured selection. The
-                        useContext hook is also being implemented for app-wide state
-                        management.
+                        Esta app se desarrolló usando Next JS y se encuentra hosteada en Vercel.
+                        Cuenta con autenticacion de usuario en firebase.
+                         La app consume datos de una API de 
+                        series llamada JIKAN API y muestra un catálogo de animes.
+                        Con el uso del hook useRouter se crearon las rutas para la pagina de cada 
+                        serie, con su respectiva descripcion, imagen, valoración y trailer
                     </p>
                     <a
                         href='https://github.com/enzozarate99dev/portfolio-enzo'
