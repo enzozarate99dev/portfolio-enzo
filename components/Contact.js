@@ -32,7 +32,7 @@ const Contact = () => {
                   <p className='uppercase pt-8'>Contactemos</p>
                   <div className='flex items-center justify-between py-4'>
                     <a
-                      href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                      href='https://www.linkedin.com/in/enzo-zárate-9a2380201/'
                       target='_blank'
                       rel='noreferrer'
                     >
@@ -41,7 +41,7 @@ const Contact = () => {
                       </div>
                     </a>
                     <a
-                      href='https://github.com/fireclint'
+                      href='https://github.com/enzozarate99dev'
                       target='_blank'
                       rel='noreferrer'
                     >
@@ -69,7 +69,7 @@ const Contact = () => {
             <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
               <div className='p-4'>
                 <form
-                  action='https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060'
+                  action='https://getform.io/f/e9879ce8-39c9-46c4-9ac0-5a651de4bd2b'
                   method='POST'
                   encType='multipart/form-data'
                 >
