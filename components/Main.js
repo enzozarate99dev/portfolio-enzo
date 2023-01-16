@@ -10,7 +10,7 @@ const Main = () => {
                     <p className='py-4 text-gray-600 max-w-[70%] m-auto '>
                         Me especializo en el desarrollo de Aplicaciones Web desde el lado del 
                          cliente. Adicionalmente, me encuentro aprendiendo tecnologías de desarrollo
-                         Back-End como Java y Spring
+                         Back-End como C# con ASP.NET
                     </p>
                 </div>
             </div>
