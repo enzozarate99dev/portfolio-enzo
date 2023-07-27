@@ -3,6 +3,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import ProjectItem from './ProjectItem';
 import animesflixImg from '../images/proyectos/animesflix.png'
+import sistemaImg from '../images/proyectos/sistema.jpeg'
+
 
 export default function Projects() {
     return (
@@ -21,7 +23,7 @@ export default function Projects() {
                     />
                      <ProjectItem
                         title='Sistema de Facturacion'
-                        backgroundImg={animesflixImg}
+                        backgroundImg={sistemaImg}
                         projectUrl='/sistema'
                         tech='React JS'
                     />
