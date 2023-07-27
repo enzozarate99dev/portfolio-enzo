@@ -19,6 +19,12 @@ export default function Projects() {
                         projectUrl='/animesflix'
                         tech='Next JS'
                     />
+                     <ProjectItem
+                        title='Sistema de Facturacion'
+                        backgroundImg={animesflixImg}
+                        projectUrl='/sistema'
+                        tech='React JS'
+                    />
                 </div>
             </div>
         </div>
