@@ -1,5 +1,5 @@
 import React from 'react'
-import animesflixImg from '../images/proyectos/animesflix.png'
+import sistemaImg from '../images/proyectos/sistema.jpeg'
 import Image from 'next/image'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
@@ -13,28 +13,31 @@ const Sistema = () => {
                     className='absolute z-1'
                     layout='fill'
                     objectFit='cover'
-                    src={animesflixImg}
+                    src={sistemaImg}
                     alt='/'
                 />
                 <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
                     <h2 className='py-2'>Sistema de Facturacion</h2>
-                    <h3>Next JS / Material UI / Firebase</h3>
+                    <h3>React / Bootstrap / ASP.NET Core / Entity Framework</h3>
                 </div>
             </div>
             <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
                 <div className='col-span-4'>
                     <p>Proyecto</p>
-                    <h2>Vista General</h2>
+                    <h2>Detalle</h2>
                     <p>
-                        Esta app se desarrolló usando Next JS y se encuentra hosteada en Vercel.
-                        Cuenta con autenticacion de usuario en firebase.
-                         La app consume datos de una API de 
-                        series llamada JIKAN API y muestra un catálogo de animes.
-                        Con el uso del hook useRouter se crearon las rutas para la pagina de cada 
-                        serie, con su respectiva descripcion, imagen, valoración y trailer
+                        Esta es una app completa que se desarrolló usando React en el frontend con las librerías Ant Design y Bootstrap.
+                        Para el backend se utilizó ASP.NET Core con el ORM Entity Framework y la base de datos SQL Server.
+                        Consiste en un sistema de gestion para una tienda pequeña o mediana. Cuenta con una pntalla de inicio, una de login,
+                        una para cargar la venta en la cual pueden elegirse multiples productos, aplicar descuentos, seleccionar una o 
+                        varias formas de pago. Tambien cuenta con una pantallla de clientes donde puede consultarse el historial de ventas,
+                        una pantalla de productos donde se puede consultar por stock, hacer pedidos de productos y editarlos.
+
+                        El link DEMO te redireccionará a una version beta de la aplicación, ya que es un software privado que no
+                        se me permite mostrar.
                     </p>
                     <a
-                        href='https://github.com/enzozarate99dev/portfolio-enzo'
+                        href='https://github.com/enzozarate99dev/SistemaV321'
                         target='_blank'
                         rel='noreferrer'
                     >
@@ -53,19 +56,25 @@ const Sistema = () => {
                         <p className='text-center font-bold pb-2'>Tecnologias</p>
                         <div className='grid grid-cols-3 md:grid-cols-1'>
                             <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Next JS
+                                <RiRadioButtonFill className='pr-1' />  React
                             </p>
                             <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Material UI
+                                <RiRadioButtonFill className='pr-1' /> TypeScript
                             </p>
                             <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Javascript
+                                <RiRadioButtonFill className='pr-1' /> ASP.Net Core
                             </p>
                             <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Firebase
+                                <RiRadioButtonFill className='pr-1' /> Entity Framework
                             </p>
                             <p className='text-gray-600 py-2 flex items-center'>
-                                <RiRadioButtonFill className='pr-1' /> Jikan API
+                                <RiRadioButtonFill className='pr-1' /> Swagger
+                            </p>
+                            <p className='text-gray-600 py-2 flex items-center'>
+                                <RiRadioButtonFill className='pr-1' /> SQL Server
+                            </p>
+                            <p className='text-gray-600 py-2 flex items-center'>
+                                <RiRadioButtonFill className='pr-1' /> Filezilla
                             </p>
                         </div>
                     </div>

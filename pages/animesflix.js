@@ -34,7 +34,7 @@ const AnimesFlix = () => {
                         serie, con su respectiva descripcion, imagen, valoración y trailer
                     </p>
                     <a
-                        href='https://github.com/enzozarate99dev/portfolio-enzo'
+                        href='https://github.com/enzozarate99dev/animeapp'
                         target='_blank'
                         rel='noreferrer'
                     >
