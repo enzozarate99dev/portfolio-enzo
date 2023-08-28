@@ -25,7 +25,7 @@ const About = () => {
               Mi camino como desarrollador comenzó en 2021 de manera autodidacta, aprendiendo
               los fundamentos de programacion y posteriormente desarrollo frontend con React y Next Js, gracias a Folcademy.
               Esto me sirvió para conseguir mi primera experiencia en Software Makers San Juan, donde trabajé
-              durante 7 meses.
+              durante 9 meses.
               Allí adquirí los conocimientos en typescript y .NET necesarios para desarrollar un sistema de 
               gestion de ventas, que se encuentra detallado en la seccion de <a href='#projects' className='underline cursor-pointer'>Proyectos</a>.  
               Actualmente me sigo perfeccionando en estas tecnologías desarrollando proyectos personales, y aprendiendo desarrollo mobile 
