@@ -65,25 +65,7 @@ const Navbar = () => {
                             <Link href={'/#contact'}><li className='text-sm py-4'>Contacto</li></Link>
                         </ul>
                     </div>
-                    <div className="pt-10">
-                        <p className='uppercase text-white'>¡Conectemos!</p>
-                        <div className='flex items-center justify-between w-full my-4 sm:w-[80%]'>
-                            <div className='rounded-full shadow-lg shadow-black hover:scale-105 ease-in duration-300 p-4 cursor-pointer '>
-                                < AiFillLinkedin size={25} />
-                            </div>
-                            <div className='rounded-full shadow-lg shadow-black hover:scale-105 ease-in duration-300 p-4 cursor-pointer '>
-                                < AiOutlineGithub size={25} />
-                            </div>
-                            <div className='rounded-full shadow-lg shadow-black hover:scale-105 ease-in duration-300 p-4 cursor-pointer '>
-                                < AiOutlineInstagram size={25} />
-                            </div>
-                            <div className='rounded-full shadow-lg shadow-black hover:scale-105 ease-in duration-300 p-4 cursor-pointer '>
-                                < AiOutlineMail size={25} />
-                            </div>
-
-
-                        </div>
-                    </div>
+                   
                 </div>
 
             </div>

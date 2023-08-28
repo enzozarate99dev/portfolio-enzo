@@ -134,7 +134,7 @@ const Skills = () => {
                                 <Image src={Sql} width='64px' height='64px' alt='/' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
-                                <h3>SQL Servers</h3>
+                                <h3>SQL Server</h3>
                             </div>
                         </div>
                     </div>

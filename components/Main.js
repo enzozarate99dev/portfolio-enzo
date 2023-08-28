@@ -9,7 +9,7 @@ const Main = () => {
                     <h1 className='py-2 text-gray-700'>FullStack Web Developer</h1>
                     <p className='py-4 text-gray-600 max-w-[70%] m-auto '>
                     ¿Buscas un desarrollador web fullstack que pueda crear sitios web dinámicos, interactivos
-                     y funcionales? Entonces estás en el lugar correcto. Mi nombre es Enzo Zarate.
+                     y funcionales? Mi nombre es Enzo Zarate.
                         Si te interesa 
                         trabajar conmigo, no dudes en contactarme. Estaré encantado de escuchar tus ideas
                          y convertirlas en realidad.

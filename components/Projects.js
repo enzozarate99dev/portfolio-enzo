@@ -25,7 +25,7 @@ export default function Projects() {
                         title='Sistema de Facturacion'
                         backgroundImg={sistemaImg}
                         projectUrl='/sistema'
-                        tech='React JS'
+                        tech='React JS - ASP.NET'
                     />
                 </div>
             </div>
