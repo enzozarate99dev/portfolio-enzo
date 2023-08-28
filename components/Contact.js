@@ -49,17 +49,16 @@ const Contact = () => {
                         <FaGithub />
                       </div>
                     </a>
-  
+                    <a
+                      href='https://instagram.com/enzooo_zzarate?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       < AiOutlineInstagram />
                     </div>
-                    <Link href='/resume'>
-                      <a>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                          <AiOutlineMail />
-                        </div>
-                      </a>
-                    </Link>
+                    </a>
+                  
                   </div>
                 </div>
               </div>
