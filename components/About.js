@@ -14,9 +14,8 @@ const About = () => {
             <p className='py-2 text-gray-600'>
             Me especializo en construir aplicaciones web completas con diseño adaptable
              (responsive). Me apasiona aprender
-              nuevas tecnologías y entiendo que hay más de una forma de lograr una tarea. Aunque soy más
-               competente en construir aplicaciones web de frontend usando HTML, CSS, TypeScript y React, y poseo
-               un buen manejo de tecnologías backend como ASP.NET Core, Entity Framework y SQL Server,
+              nuevas tecnologías y entiendo que hay más de una forma de lograr una tarea. Poseo sólidos conocimientos
+              en HTML, CSS, TypeScript y React, y un buen manejo de tecnologías backend como ASP.NET Core, Entity Framework y SQL Server,
                 soy un aprendiz rápido y puedo adaptarme a nuevos stacks según
                  sea necesario. Creo que ser un gran desarrollador no es usar un lenguaje específico,
                   sino elegir la mejor herramienta para el trabajo.
@@ -28,8 +27,7 @@ const About = () => {
               durante 9 meses.
               Allí adquirí los conocimientos en typescript y .NET necesarios para desarrollar un sistema de 
               gestion de ventas, que se encuentra detallado en la seccion de <a href='#projects' className='underline cursor-pointer'>Proyectos</a>.  
-              Actualmente me sigo perfeccionando en estas tecnologías desarrollando proyectos personales, y aprendiendo desarrollo mobile 
-              en React Native
+              Actualmente me sigo perfeccionando en estas tecnologías desarrollando proyectos personales.
             </p>
            
           </div>
