@@ -1,22 +1,31 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import perfil from '../images/perfil2.png'
+import Image from 'next/image';
+
 
 const Main = () => {
-    return(
-        <div id='main' className='w-full lg:h-screen text-center'>
-            <div className='w-full h-full p-2 mx-auto flex justify-center items-center'>
-                <div >
-                    <h1 className='py-4 text-gray-700'>Hola, soy <span className='text-[#2823bc]'>Enzo</span></h1>
-                    <h1 className='py-2 text-gray-700'>FullStack Web Developer</h1>
-                    <p className='py-4 text-gray-600 max-w-[70%] m-auto '>
-                    ¿Buscas un desarrollador web fullstack que pueda crear sitios web dinámicos, interactivos
-                     y funcionales? Mi nombre es Enzo Zarate.
-                        Si te interesa 
-                        trabajar conmigo, no dudes en contactarme. Estaré encantado de escuchar tus ideas
-                         y convertirlas en realidad.
-                    </p>
-                </div>
-            </div>
+ 
+    return (
+        <div id='main' className='lg:h-screen flex justify-center items-center p-4 max-w-[1240px] mx-auto px-2 py-16'>
+      <div className='flex flex-col lg:flex-row items-center max-w-[80vw]'>
+        <div className='lg:w-1/2 '>
+          <h1 className='py-4 text-white text-center md:text-left'>Hola, soy Enzo</h1>
+          <h1 className='py-2 text-white text-center md:text-left'>FullStack Developer</h1>
+          
         </div>
+        <div className='lg:w-1/2  flex justify-center'>
+          <div className=' overflow-hidden'>
+            <Image 
+              src={perfil} 
+              alt='/'
+              style={{borderRadius: '50%',border: '4px solid transparent',
+                animation: 'pulse 2s infinite'}}
+              className='w-[300px] h-[300px] sm:w-[400px] sm:h-[400px]'
+            />
+          </div>
+        </div>
+      </div>
+    </div>
     )
 }
 export default Main

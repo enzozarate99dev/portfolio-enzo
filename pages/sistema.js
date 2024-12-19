@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import HiOutlineChevronDoubleUp from "react-icons/ai"
+import { MdArrowBackIos } from "react-icons/md";
 const Sistema = () => {
     return (
         <div className='w-full'>
@@ -23,57 +24,42 @@ const Sistema = () => {
             </div>
             <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
                 <div className='col-span-4'>
-                    <p>Proyecto</p>
                     <h2>Detalle</h2>
-                    <p>
+                    <p className='py-4'>
                         Esta es una app completa que se desarrolló usando React en el frontend con las librerías Ant Design y Bootstrap.
-                        Para el backend se utilizó ASP.NET Core con el ORM Entity Framework y la base de datos SQL Server.
-                        Consiste en un sistema de gestion para una tienda pequeña o mediana. Cuenta con una pntalla de inicio, una de login,
+                        Para el backend se utilizó un Web Api de .NET Core y SQL Server como base de datos.
+                        Consiste en un sistema de gestion para una tienda pequeña o mediana. Cuenta con una pantalla de inicio, una de login,
                         una para cargar la venta en la cual pueden elegirse multiples productos, aplicar descuentos, seleccionar una o 
                         varias formas de pago. Tambien cuenta con una pantallla de clientes donde puede consultarse el historial de ventas,
                         una pantalla de productos donde se puede consultar por stock, hacer pedidos de productos y editarlos.
 
-                        El link DEMO te redireccionará a una version beta de la aplicación, ya que es un software privado que no
-                        se me permite mostrar.
+                        Debido a que se trata de un software privado no es posible mostrar el repositorio.
                     </p>
-                    <a
-                        href='https://github.com/enzozarate99dev/SistemaV321'
-                        target='_blank'
-                        rel='noreferrer'
-                    >
-                        <button className='px-8 py-2 mt-4 mr-8'>Repo</button>
-                    </a>
-                    <a
-                        href='https://sistema.mmakers.ar/login'
-                        target='_blank'
-                        rel='noreferrer'
-                    >
-                        <button className='px-8 py-2 mt-4'>Demo</button>
-                    </a>
+                    
                 </div>
-                <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400'>
+                <div className='col-span-4 md:col-span-1 sm:mx-[20px] sm:!mx-[20px]  shadow-xl shadow-[#009929]'>
                     <div className='p-2'>
-                        <p className='text-center font-bold pb-2'>Tecnologias</p>
+                        <p className='text-center text-[#5ccb5f] font-bold pb-2'>Tecnologias</p>
                         <div className='grid grid-cols-3 md:grid-cols-1'>
-                            <p className='text-gray-600 py-2 flex items-center'>
+                            <p className='py-2 flex items-center'>
                                 <RiRadioButtonFill className='pr-1' />  React
                             </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
+                            <p className='py-2 flex items-center'>
                                 <RiRadioButtonFill className='pr-1' /> TypeScript
                             </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
+                            <p className=' py-2 flex items-center'>
                                 <RiRadioButtonFill className='pr-1' /> ASP.Net Core
                             </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
+                            <p className=' py-2 flex items-center'>
                                 <RiRadioButtonFill className='pr-1' /> Entity Framework
                             </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
+                            <p className=' py-2 flex items-center'>
                                 <RiRadioButtonFill className='pr-1' /> Swagger
                             </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
+                            <p className=' py-2 flex items-center'>
                                 <RiRadioButtonFill className='pr-1' /> SQL Server
                             </p>
-                            <p className='text-gray-600 py-2 flex items-center'>
+                            <p className=' py-2 flex items-center'>
                                 <RiRadioButtonFill className='pr-1' /> Filezilla
                             </p>
                         </div>
@@ -81,7 +67,7 @@ const Sistema = () => {
                 </div>
                 <Link href='/#projects'>
                     <button>
-                        back
+                        <MdArrowBackIos size={30}/>
                     </button>
                 </Link>
             </div>

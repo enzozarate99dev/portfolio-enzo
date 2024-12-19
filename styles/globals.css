@@ -8,7 +8,11 @@ html{
 
 @layer base {
   body {
-    @apply bg-[#fff] text-[#000] tracking-wide;
+    @apply bg-black text-[#fff] tracking-wide; 
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+
   }
   h1, h2, h3, h4, h5, h6{
     @apply font-bold
@@ -22,17 +26,23 @@ html{
 li{
   @apply cursor-pointer
 }
-button{
-  @apply shadow-xl shadow-gray-400 rounded-xl uppercase
-}
+
 li{
   @apply text-white
 }
 text{
   @apply text-white
 }
-button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
-  }
 
+}
+@keyframes pulse {
+  0% {
+    transform: scale(0.97);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.97);
+  }
 }
