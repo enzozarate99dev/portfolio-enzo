@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Javascript from '../images/skills/javascript.png';
 import ReactImg from '../images/skills/react.png';
 import Git from '../images/skills/git.png';
+import Github from '../images/skills/github.jpeg';
 import ASPNET from '../images/skills/net.png';
 import Csharp from '../images/skills/Cs.png';
 import Typescript from '../images/skills/typescript.svg';
@@ -18,7 +19,7 @@ const Skills = () => {
             <div className='max-w-[80vw] mx-auto py-16'>
 
                 <h2 className='py-4 text-center md:text-left'>Mis Skills</h2>
-                <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 sm:gap-2  md:gap-8'>
+                <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2  md:gap-8'>
                     <div className='p-6 shadow-md bg-black shadow-[#5ccb5f] rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
@@ -92,7 +93,7 @@ const Skills = () => {
                     </div>
 
                     <div className='p-6 shadow-md bg-black shadow-[#5ccb5f] rounded-xl hover:scale-105 ease-in duration-300'>
-                        <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                        <div className='grid grid-cols-2 gap-4 justify-center items-center mt-2'>
                             <div className='m-auto'>
                                 <Image src={Azure} width='64px' height='64px' alt='/' />
                             </div>
@@ -115,7 +116,7 @@ const Skills = () => {
                     <div className='p-6 shadow-md bg-black shadow-[#5ccb5f] rounded-xl hover:scale-105 ease-in duration-300'>
                         <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                             <div className='m-auto'>
-                                <FaGithub className="text-white" style={{ width: '80px', height: '80px' }} /> 
+                            <Image src={Github} width='64px' height='64px' alt='/' />
                             </div>
                             <div className='flex flex-col items-center justify-center'>
                                 <p>Github</p>
